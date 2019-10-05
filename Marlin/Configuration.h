@@ -906,7 +906,11 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER 24  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER 5  // Y offset: -front +behind [the nozzle]
+<<<<<<< HEAD
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -1.300  // Z offset: -below +above  [the nozzle]
+=======
+#define Z_PROBE_OFFSET_FROM_EXTRUDER 0.500   // Z offset: -below +above  [the nozzle]
+>>>>>>> fablab-i3
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 30
